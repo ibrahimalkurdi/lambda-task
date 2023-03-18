@@ -5,6 +5,7 @@ This task is to covert CSV file to JSON by Lambda Function
 To initialize the infrasturcture, add the needed credentials as below:
 
 1- Clone the **Lambda-task** repo and create file called "**aws-credentails**" in the top level directory.
+
 2- Add your AWS Access keys in the aws-credentails as below:
 ```
 export AWS_ACCESS_KEY_ID="XXXXXXXXXXXXXXXXXXXX"  # Relplace the placeholder with your Access key
