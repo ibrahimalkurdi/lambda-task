@@ -25,4 +25,6 @@ export TF_VAR_aws_region=""		# Terraform AWS region variable
 ```
 
 4- Run the bootstrap script to ensure the setup is ready to be launched
+```
 bash bootstrap.sh
+```
