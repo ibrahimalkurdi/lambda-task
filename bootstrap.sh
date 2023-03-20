@@ -5,7 +5,7 @@ set -e
 echo "[INFO] Check the project requirments ...."
 
 # Ensure you have aws-cli and terraform binary exists:
-if ! command -v aws1 &> /dev/null; then
+if ! command -v aws &> /dev/null; then
 	echo "[ERROR] Ensure you have installed "aws-cli" on your machine!"
 	return 1
 fi
