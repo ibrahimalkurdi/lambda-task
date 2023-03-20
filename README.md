@@ -28,3 +28,16 @@ export TF_VAR_aws_region=""		# Terraform AWS region variable
 ```
 bash bootstrap.sh
 ```
+
+## Launch the setup:
+It will create the terraform resources which inlcudes S3 bucket, Lambda, SQS and the needed permission.
+```
+bash init.sh
+```
+
+## Clean up
+To destory all the created resources (except the Terraform State S3 Bucket, it should be cleaned up manually)
+Run the following command:
+```
+bash destroy.sh
+```
