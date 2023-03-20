@@ -1,5 +1,5 @@
 export AWS_DEFAULT_REGION="eu-north-1"
-export PROJECT_S3_BUCKET="bob-csv-to-json-bucket"
-export TF_VAR_state_bucket="bob-test-10101982-terraform-bucket"
-export TF_VAR_project_name="csv-to-json-converter"
+export PROJECT_S3_BUCKET=""
+export TF_VAR_state_bucket=""
+export TF_VAR_project_name=""
 export TF_VAR_aws_region="${AWS_DEFAULT_REGION}"
