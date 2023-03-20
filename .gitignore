@@ -1,1 +1,3 @@
 .aws-credentails
+terraform/.terraform
+terraform/.terraform.lock.hcl
